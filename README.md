@@ -1,7 +1,7 @@
 About django-mfa2
 =================
 
-Home: https://pypi.org/project/jsonLookup/
+Home: https://pypi.org/project/django-mfa2/
 
 Package license: MIT
 
