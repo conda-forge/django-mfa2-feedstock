@@ -36,8 +36,8 @@ test:
     - mfa
 
 about:
-  home: https://pypi.org/project/jsonLookup/
-  summary: jsonLookup, searching in MySQL JSON field in Django.
+  home: https://pypi.org/project/django-mfa2/
+  summary: django-mfa2, A Django app that handles MFA, it supports TOTP, U2F, FIDO2 U2F (Web Authn), Email Tokens , and Trusted Devices
   license: MIT
   license_file: LICENSE
 
