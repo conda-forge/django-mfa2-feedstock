@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-mfa2-feedstock/blob/master/LICENSE.txt)
 
-Summary: jsonLookup, searching in MySQL JSON field in Django.
+Summary: django-mfa2, A Django app that handles MFA, it supports TOTP, U2F, FIDO2 U2F (Web Authn), Email Tokens , and Trusted Devices
 
 Current build status
 ====================
