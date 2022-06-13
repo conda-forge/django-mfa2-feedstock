@@ -28,7 +28,7 @@ requirements:
     - ua-parser
     - user-agents
     - python-jose
-    - fido2
+    - fido2 <1.0
     - jsonLookup
 
 test:
