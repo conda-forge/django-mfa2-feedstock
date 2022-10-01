@@ -1,5 +1,5 @@
 {% set name = "django-mfa2" %}
-{% set version = "2.5.0" %}
+{% set version = "2.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 603fa4408bc2f409992400703b6fd6a8a0e54cf0efd4d46c06af3f1306935827
+  sha256: 9f023e27961e49c21f562b7e09a65a17828a6d1f4a991acff73e552afe6672d9
 
 build:
   number: 0
@@ -28,7 +28,7 @@ requirements:
     - ua-parser
     - user-agents
     - python-jose
-    - fido2 <2
+    - fido2 == 1.0.0
     - jsonLookup
 
 test:
