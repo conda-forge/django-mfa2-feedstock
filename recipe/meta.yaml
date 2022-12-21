@@ -1,5 +1,5 @@
 {% set name = "django-mfa2" %}
-{% set version = "2.6.1" %}
+{% set version = "2.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9ce312b421bcb1fe4ec0ec3b6d72f7d00e7bf02eaae4acdbf2ea49e23e495879
+  sha256: 74dc7ce759e5e9efeb615f717674f74785a892450fc20ae9b0e4a13319c82168
 
 build:
   number: 0
